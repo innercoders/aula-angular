@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "primeiro-app"
+    }
+  },
+  "defaultProject": "primeiro-app",
+  "cli": {
+    "analytics": false
+  }
 }
