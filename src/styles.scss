@@ -92,3 +92,26 @@ html, body {
 	height: 100%;
 
 }
+
+.in-flex-horizontal {
+	display: flex;
+	align-items: center;
+
+	&.center { justify-content: center; }
+	&.between { justify-content: space-between;	}
+	&.around { justify-content: space-around; }
+	&.end { justify-content: flex-end; }
+	&.top { align-items: flex-start; }
+	&.bottom { align-items: flex-end; }
+}
+
+.in-flex-vertical {
+	display: flex;
+	flex-direction: column;
+
+	&.between { justify-content: space-between; }
+	&.around { justify-content: space-around; }
+	&.center { align-items: center; }
+	&.end { align-items: flex-end; }
+	&.middle { justify-content: center; }
+}

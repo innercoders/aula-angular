@@ -1,0 +1,9 @@
+<div class="destaques">
+	<h6 class="titulo"> {{ produto.titulo }} </h6>
+
+	<h6 class="text-muted"> {{ produto.observacao }} </h6>
+	<h4 class="preco text-primary" *ngIf="produto.valor > 10">R$  {{ produto.valor | number: '1.2-2' }} </h4>
+	<h4 class="preco text-danger" *ngIf="produto.valor < 10">R$  {{ produto.valor | number: '1.2-2' }} </h4>
+
+	<div class="badge" *ngIf="produto.oferta">oferta</div>
+</div>

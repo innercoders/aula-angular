@@ -1,0 +1,24 @@
+.destaques {
+	position: relative;
+	width: 100%;
+	height: 300px;
+
+	background-color: #999;
+	padding: 20px;
+
+	display: flex;
+	flex-direction: column; // padrão:row  column
+	justify-content: flex-end; // Vertical
+
+	.badge {
+		width: 100px;
+		height: 20px;
+
+		background-color: #fff;
+		color: #000;
+
+		position: absolute;
+		top: 20px;
+		right: 20px;
+	}
+}
